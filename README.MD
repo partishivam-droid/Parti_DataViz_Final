@@ -1,6 +1,7 @@
 # Market Concentration in the U.S. Airline Industry
 
-Quarto website. Rendered site is in `docs/`; open `docs/index.html`.
+This is a Quarto website. 
+The rendered site is in `docs/`. You can open `docs/index.html` to view it, or use the public hosting link.
 
 ## Data
 The raw data is not included because of its size.
