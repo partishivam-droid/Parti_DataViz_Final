@@ -6,3 +6,6 @@
 .venv/
 TMP/
 data/raw/
+
+/.quarto/
+**/*.quarto_ipynb
