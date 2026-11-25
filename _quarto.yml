@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - story.qmd
+    - appendix.qmd
+  resources:
+    - figures/**
+
+website:
+  title: "Market Concentration in the U.S. Airline Industry"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: story.qmd
+        text: The Story
+      - href: appendix.qmd
+        text: Appendix
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    fig-align: center
+
+execute:
+  echo: false
+  warning: false

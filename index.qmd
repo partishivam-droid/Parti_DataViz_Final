@@ -1,0 +1,12 @@
+---
+title: "Market Concentration in the U.S. Airline Industry"
+subtitle: "How mergers changed competition in U.S. air travel"
+---
+
+**By:** Shivam Parti
+
+I am a junior at Georgetown University's School of Foreign Service studying International Economics. I am fascinated by antitrust and competition, intellectual property dynamics, and academic economics. I enjoy learning about AI developments and technology policy. Aviation is another one of my passions. This project mixes my interests and serves as a study done both for class and my own intellectual curiosity.
+
+[Read the story](story.qmd)
+
+![Me in October 2026 with a Concorde at the Udvar-Hazy Center near Dulles International Airport](images/dataviz_concorde.JPG){fig-align="center" width="60%}
