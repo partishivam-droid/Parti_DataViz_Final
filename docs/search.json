@@ -14,18 +14,18 @@
     "text": "U.S. Bureau of Transportation Statistics, T-100 Domestic Market (U.S. Carriers). Monthly counts of passengers flown between airport pairs by U.S. airlines. https://www.transtats.bts.gov/\nOpenFlights, airports database (airports.dat). Airport names and coordinates, used to place airports on the map. https://openflights.org/data\nHow I processed the data. I downloaded one T-100 file for each of ten sample years (2000, 2005, 2008, 2010, 2012, 2014, 2016, 2019, 2023, and 2025) and combined them. I then applied the following filters:\n\nI kept scheduled passenger service only and dropped charter and other service types.\nI dropped rows with zero passengers.\nI dropped rows where the origin and destination airport were the same.\nI counted airport totals by origin airport only (boardings), so a trip is not counted at both ends.\nI limited the airport figures to airports with at least 500,000 boardings in a given year. The hub explorer uses the thirty busiest airports.\n\nHow I grouped airlines. Airlines are counted separately until their mergers took effect, so the merger years show up in the charts. Regional airlines owned by a major airline (for example Envoy, PSA, Piedmont, Endeavor, Comair, and Horizon) are counted under that major airline. Independent regional airlines such as SkyWest and Republic fly for several majors, so I grouped them together as one “Regional (independent)” category. Because this category combines many companies, it can make national concentration look lower than it would if each regional were counted alone. Airlines outside the named majors are grouped as “Other” in the airline share chart.\nSample years. I used ten sample years rather than every year. I left out 2020 to 2022 because of the COVID-19 pandemic.\nCalculations. Market shares are each airline’s passengers divided by total passengers. HHI is the sum of squared market shares, with shares expressed as percentages. All calculations are my own."
   },
   {
-    "objectID": "appendix.html#b.-group-contributions",
-    "href": "appendix.html#b.-group-contributions",
+    "objectID": "appendix.html#b.-ai-use-statement",
+    "href": "appendix.html#b.-ai-use-statement",
     "title": "Appendix",
-    "section": "B. Group Contributions",
-    "text": "B. Group Contributions\nThis project was completed individually."
+    "section": "B. AI-Use Statement",
+    "text": "B. AI-Use Statement\nAI was used to proofread the prose and troubleshoot bugs on Visual Studio code. It was also used to generate the scripts to pull large data from the internet. For the AI-assisted D3-graphic, I used AI to ideate and help me understand the code that I was using for the visual. I then used it to scrape my data and write the code for the AI-assisted graphic.It was an iterative process wherein Claude and I were in a feedback loop to improve the final product."
   },
   {
-    "objectID": "appendix.html#c.-ai-use-statement",
-    "href": "appendix.html#c.-ai-use-statement",
+    "objectID": "appendix.html#c.-group-contributions",
+    "href": "appendix.html#c.-group-contributions",
     "title": "Appendix",
-    "section": "C. AI-Use Statement",
-    "text": "C. AI-Use Statement\nAI was used to proofread the prose and troubleshoot bugs on Visual Studio code. It was also used to generate the scripts to pull large data from the internet. For the AI-assisted D3-graphic, I used AI to ideate and help me understand the code that I was using for the visual. I then used it to scrape my data and write the code for the AI-assisted graphic."
+    "section": "C. Group Contributions",
+    "text": "C. Group Contributions\nThis project was completed individually."
   },
   {
     "objectID": "index.html",
@@ -96,19 +96,5 @@
     "title": "The Story",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nMarshall Steinbaum, Airline Consolidation, Merger Retrospectives, and Oil Price Pass-Through (Roosevelt Institute, March 29, 2018), abstract, https://rooseveltinstitute.org/wp-content/uploads/2020/07/RI-Airline-Consolidation-201806.pdf.↩︎\nU.S. Department of Justice, Antitrust Division, “Herfindahl-Hirschman Index,” updated January 17, 2024, https://www.justice.gov/atr/herfindahl-hirschman-index.↩︎\nU.S. Department of Justice, “Herfindahl-Hirschman Index.”↩︎\nU.S. Department of Justice and Federal Trade Commission, Horizontal Merger Guidelines (2010), § 5.3, 19, https://www.ftc.gov/sites/default/files/attachments/mergers/100819hmg.pdf.↩︎\nU.S. Department of Justice and Federal Trade Commission, Merger Guidelines (2023), § 2.1, 5, https://www.ftc.gov/system/files/ftc_gov/pdf/2023_merger_guidelines_final_12.18.2023.pdf.↩︎\nU.S. Department of Justice, “United Airlines and Continental Airlines Transfer Assets to Southwest Airlines in Response to Department of Justice’s Antitrust Concerns,” August 27, 2010, https://www.justice.gov/archives/opa/pr/united-airlines-and-continental-airlines-transfer-assets-southwest-airlines-response.↩︎\nU.S. Department of Justice, “Justice Department Requires US Airways and American Airlines to Divest Facilities at Seven Key Airports to Enhance System-wide Competition and Settle Merger Challenge,” November 12, 2013, https://www.justice.gov/archives/opa/pr/justice-department-requires-us-airways-and-american-airlines-divest-facilities-seven-key.↩︎\nU.S. General Accounting Office, Airline Competition: Higher Fares and Reduced Competition at Concentrated Airports, GAO/RCED-90-102 (Washington, DC: U.S. General Accounting Office, July 11, 1990), 12, https://www.gao.gov/assets/rced-90-102.pdf.↩︎"
-  },
-  {
-    "objectID": "appendix.html#b.-ai-use-statement",
-    "href": "appendix.html#b.-ai-use-statement",
-    "title": "Appendix",
-    "section": "B. AI-Use Statement",
-    "text": "B. AI-Use Statement\nAI was used to proofread the prose and troubleshoot bugs on Visual Studio code. It was also used to generate the scripts to pull large data from the internet. For the AI-assisted D3-graphic, I used AI to ideate and help me understand the code that I was using for the visual. I then used it to scrape my data and write the code for the AI-assisted graphic.It was an iterative process wherein Claude and I were in a feedback loop to improve the final product."
-  },
-  {
-    "objectID": "appendix.html#c.-group-contributions",
-    "href": "appendix.html#c.-group-contributions",
-    "title": "Appendix",
-    "section": "C. Group Contributions",
-    "text": "C. Group Contributions\nThis project was completed individually."
   }
 ]
