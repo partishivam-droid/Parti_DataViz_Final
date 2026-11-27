@@ -12,7 +12,7 @@ Reads every .csv, .csv.gz and .zip (one CSV inside) in the input folder, stacks 
 cleans them, and writes small summary CSVs that the Quarto pages read.
 Raw data never needs to be loaded when rendering the site.
 
-Cleaning rules (document these in the appendix):
+Cleaning rules:
   1. Keep scheduled passenger service only (CLASS == "F").
   2. Drop rows with zero passengers.
   3. Drop rows where origin == destination.
