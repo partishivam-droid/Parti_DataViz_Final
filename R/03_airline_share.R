@@ -53,7 +53,7 @@ p <- ggplot(plot_data, aes(year_f, share, fill = airline_stack)) +
   scale_colour_identity() +
   scale_y_continuous(labels = percent, expand = expansion(mult = c(0, 0.01))) +
   labs(
-    title = "Nine major airlines became four",
+    title = "The Number of Airlines Serving U.S. Domestic Passengers Fell 50% After the Mergers",
     subtitle = "Share of U.S. domestic passengers. Shades of one color are airlines that later became part of the same company.",
     x = NULL, y = "Share of domestic passengers",
     caption = paste0(source_line, "\nSample years shown. Labels shown for shares of 4% or more. Independent regional airlines are grouped together.")

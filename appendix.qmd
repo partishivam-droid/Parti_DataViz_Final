@@ -22,10 +22,10 @@ title: "Appendix"
 
 **Calculations.** Market shares are each airline's passengers divided by total passengers. HHI is the sum of squared market shares, with shares expressed as percentages. All calculations are my own.
 
-## B. Group Contributions
+## B. AI-Use Statement
+
+AI was used to proofread the prose and troubleshoot bugs on Visual Studio code. It was also used to generate the scripts to pull large data from the internet. For the AI-assisted D3-graphic, I used AI to ideate and help me understand the code that I was using for the visual. I then used it to scrape my data and write the code for the AI-assisted graphic.It was an iterative process wherein Claude and I were in a feedback loop to improve the final product.
+
+## C. Group Contributions
 
 This project was completed individually.
-
-## C. AI-Use Statement
-
-AI was used to proofread the prose and troubleshoot bugs on Visual Studio code. It was also used to generate the scripts to pull large data from the internet. For the AI-assisted D3-graphic, I used AI to ideate and help me understand the code that I was using for the visual. I then used it to scrape my data and write the code for the AI-assisted graphic. 

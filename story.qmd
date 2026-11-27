@@ -6,7 +6,7 @@ Most of us only critique the U.S. aviation industry while at the airport. We not
 
 Between 2008 and 2013, the three biggest mergers in modern U.S. aviation history were finalized: Delta with Northwest, United with Continental, and American with U.S. Airways.[^1] Each merger removed a competitor from the market. In this analysis, I will investigate whether these mergers led to a dangerous level of concentration in the airline industry, as defined by conventional economic indices.
 
-I used public data from the U.S. Bureau of Transportation Statistics about the U.S. domestic air passenger market for ten sample years between 2000 and 2025.
+To conduct my analysis, I used public data from the U.S. Bureau of Transportation Statistics about the U.S. domestic air passenger market for ten sample years between 2000 and 2025. Firstly, examining market shares:
 
 ![](figures/03_airline_share.png){#fig-share fig-alt="Stacked bars of airline shares of U.S. passengers, 2000 to 2025"}
 
@@ -24,7 +24,7 @@ Looking at the airline industry, @fig-hhi shows the national score barely moving
 
 After that, the line goes flat. Between 2019 and 2025, it held at roughly 1,420 to 1,440, though it was still substantially higher than in 2000. So, while the airline industry did not cross the 1,500-index threshold to be classified as moderately concentrated, the mergers themselves raised the index by roughly 450 points, indicating the need for scrutiny.
 
-Federal regulators such as the Department of Justice (DOJ) pushed back only minimally in the case of Delta-Northwest, stating that the pair had little direct route overlap; so, the concentration would not lead to consumer harm. In the case of United-Continental, United was required to hand over 36 airport slots to Southwest to address competitive concerns.[^6] However, the American-US Airways merger faced heavy scrutiny from the DOJ. The eventual result was a settlement where the merger was allowed to go through only after American agreed to airport gate and slot divestitures to low-cost carriers.[^7]
+So, was there a governmental inquiry? Federal regulators such as the Department of Justice (DOJ) pushed back only minimally in the case of Delta-Northwest, stating that the pair had little direct route overlap; so, the concentration would not lead to consumer harm. In the case of United-Continental, United was required to hand over 36 airport slots to Southwest to address competitive concerns.[^6] However, the American-US Airways merger faced heavy scrutiny from the DOJ. The eventual result was a settlement where the merger was allowed to go through only after American agreed to airport gate and slot divestitures to low-cost carriers.[^7]
 
 ## Trouble at the Terminal
 
@@ -50,22 +50,23 @@ Bonus graphic: AI-assisted visualization. The same 99 airports followed from 200
 
 :::
 
+If you wish to follow which of the 99 initial airports with over 500,000 boardings recovered and which ones worsened, you can do so through this AI-assisted graphic. This will show the evolution of market concentration at the airports, allowing you to check how the mergers affected them and if they recovered.
+
 ## Mapping the Concentration
 
 ```{=html}
 <iframe src="figures/04_airport_map_interactive.html" width="100%" height="680" style="border:0;" title="Map of the largest airline's share of passengers at U.S. airports, by year"></iframe>
 ```
 
-On this map, each circle represents an airport. Its size grows with the number of passengers that board aircraft there annually. The gradient shows the concentration at these airports by tracking the share carried by the largest airline. Purple denotes about 20% while bright yellow depicts 100%. Adjusting the slider or pressing play shows the evolution of concentration over the years.
+On this map, each circle represents an airport. Its size grows with the number of passengers that board aircraft there annually. The gradient shows the concentration at these airports by tracking the share carried by the largest airline. The darker the gray, the higher the dominance of a single airline. Adjusting the slider or pressing play shows the evolution of concentration over the years.
 
-In 2000, many of the biggest hub airports have a yellow tint. Some examples include Atlanta (Delta, 73%), Minneapolis (Northwest, 72%), St. Louis (TWA, 74%), Pittsburgh (US Airways, 86%), and Cincinnati (Delta, 95%). Adjusting the time of analysis, the bright spots mostly remain bright. Hub concentration was already high before mergers, and it remained high after them.
+In 2000, many of the biggest hub airports are colored in deep gray. Some examples include Atlanta (Delta, 73%), Minneapolis (Northwest, 72%), St. Louis (TWA, 74%), Pittsburgh (US Airways, 86%), and Cincinnati (Delta, 95%). Adjusting the time of analysis, the richly-colored spots mostly remain so. Hub concentration was already high before mergers, and it remained high after them.
 
 ## Big Airport = More Competition?
 
 ```{=html}
 <iframe src="figures/05_size_vs_dominance_interactive.html" width="100%" height="760" style="border:0;" title="Scatter plot of airport size against the largest airline's share, by year"></iframe>
 ```
-
 On this scatterplot, each dot represents an airport. The horizontal axis shows its yearly boardings on a log scale, so each step to the right is a relatively big jump in size. The vertical axis shows the largest airline's share. The color of the dot indicates the largest airline, with silver dots indicating a regional mix. I have added a horizontal cutoff where an airline carries half of all passengers at the airport.
 
 Intuitively, one might think that larger airports would be more competitive, since there would be greater room for competition. But the chart complicates this assumption. In 2000, some busy airports, such as Charlotte (10 million boardings) or Atlanta (36 million boardings), sit high on the chart. At these airports, one airline carried 90% and 73% of all passengers respectively. Yet, some other airports, such as Los Angeles and New York-La Guardia, sit much lower at around 30%. Size alone does not predict dominance. Instead, "hub" status is critical—concentration is high at airports used by airlines as a connecting point between two different places. Airlines often use the "hub and spoke" model where they connect smaller regional airports to larger airports for improved international connectivity. This model can create concentration in large airports.[^8]
@@ -76,7 +77,7 @@ Intuitively, one might think that larger airports would be more competitive, sin
 <iframe src="figures/06_hub_explorer_interactive.html" width="100%" height="760" style="border:0;" title="Stacked area chart of airline shares at a chosen airport"></iframe>
 ```
 
-By this point, I am sure you are curious about how your airport has done over time. Using the menu, you can select one of the thirty busiest airports in the United States and see which airline (if any) dominated it, and how that changed over time.
+By this point, I am sure you are curious about how your airport has done over time. Using the menu, you can select one of the twenty-two busiest airports in the United States and see which airline (if any) dominated it, and how that changed over time.
 
 ## Final Approach
 
